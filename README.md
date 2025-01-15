@@ -11,12 +11,16 @@ Simple command-line interface for customization.
 Prerequisites
 Ensure you have Python 3.x installed on your system. Additionally, install the required Python libraries:
 
-```pip install requests beautifulsoup4```
+```
+pip install requests beautifulsoup4
+```
 
 #Usage
 Run the tool directly from the command line. Below are the available options:
 
-```python wordlist_generator.py <URL> [--min <min_length>] [--max <max_length>] [--o <output_file>]```
+```
+python wordlist_generator.py <URL> [--min <min_length>] [--max <max_length>] [--o <output_file>]
+```
 
 #Arguments
 <URL>: The URL to scrape words from (required).
@@ -26,7 +30,9 @@ Run the tool directly from the command line. Below are the available options:
 
 #Example
 
-```python wordlist_generator.py https://example.com --min 5 --max 15 --o my_wordlist.txt```
+```
+python wordlist_generator.py https://example.com --min 5 --max 15 --o my_wordlist.txt
+```
 
 This command will:
 Scrape words from https://example.com
