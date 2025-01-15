@@ -8,12 +8,6 @@ Save the generated wordlist to a text file.
 Simple command-line interface for customization.
 
 ## Installation
-Prerequisites
-Ensure you have Python 3.x installed on your system. Additionally, install the required Python libraries:
-
-```
-pip install requests beautifulsoup4
-```
 ### Clone the Repository
 
 To get started, clone this repository to your local machine:
