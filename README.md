@@ -14,6 +14,20 @@ Ensure you have Python 3.x installed on your system. Additionally, install the r
 ```
 pip install requests beautifulsoup4
 ```
+### Clone the Repository
+
+To get started, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/r3dsh3rl0ck/wordlist-generator.git
+cd wordlist-generator
+```
+### Prerequisites
+Ensure you have Python 3.x installed on your system. Additionally, install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 Run the tool directly from the command line. Below are the available options:
