@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Run the tool directly from the command line. Below are the available options:
 
 ```
-python wordlist_generator.py <URL> --min <min_length> --max <max_length> --o <output_file>
+python generator.py <URL> --min <min_length> --max <max_length> --o <output_file>
 ```
 
 ## Arguments
