@@ -23,10 +23,10 @@ python wordlist_generator.py <URL> [--min <min_length>] [--max <max_length>] [--
 ```
 
 ## Arguments
-<URL>: The URL to scrape words from (required).
---min: Minimum word length (default: 4).
---max: Maximum word length (default: 12).
---o: Output file for the wordlist (default: wordlist.txt).
+- <URL>: The URL to scrape words from (required).
+* --min: Minimum word length (default: 4).
++ --max: Maximum word length (default: 12).
+* --o: Output file for the wordlist (default: wordlist.txt).
 
 ## Example
 
