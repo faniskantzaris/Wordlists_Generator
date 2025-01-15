@@ -2,6 +2,7 @@
 A Python-based tool for penetration testing, designed to generate custom wordlists by scraping words from a specified URL. The tool supports flexible configuration for word length limits and output file naming.
 
 #Features
+
 Fetch words directly from a given URL.
 Filter words based on a specified minimum and maximum length.
 Save the generated wordlist to a text file.
