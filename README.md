@@ -13,7 +13,7 @@ Simple command-line interface for customization.
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/r3dsh3rl0ck/wordlist-generator.git
+git clone https://github.com/faniskantzaris/wordlist-generator.git
 cd wordlist-generator
 ```
 ### Prerequisites
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Run the tool directly from the command line. Below are the available options:
 
 ```
-python wordlist_generator.py <URL> [--min <min_length>] [--max <max_length>] [--o <output_file>]
+python wordlist_generator.py <URL> --min <min_length> --max <max_length> --o <output_file>
 ```
 
 ## Arguments
@@ -43,9 +43,9 @@ python generator.py https://example.com --min 5 --max 15 --o my_wordlist.txt
 ```
 
 This command will:
-Scrape words from https://example.com
-Include words with lengths between 5 and 15 characters.
-Save the wordlist to my_wordlist.txt.
+* Scrape words from https://example.com
+* Include words with lengths between 5 and 15 characters.
+* Save the wordlist to my_wordlist.txt.
 
 ## Output
 The generated wordlist will contain unique, lowercase words sorted alphabetically.
