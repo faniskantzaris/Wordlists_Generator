@@ -39,7 +39,7 @@ python wordlist_generator.py <URL> [--min <min_length>] [--max <max_length>] [--
 ## Example
 
 ```
-python wordlist_generator.py https://example.com --min 5 --max 15 --o my_wordlist.txt
+python generator.py https://example.com --min 5 --max 15 --o my_wordlist.txt
 ```
 
 This command will:
